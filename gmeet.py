@@ -38,9 +38,6 @@ def open_gmeet(gmeet_code):
     code = str(gmeet_code)
 
 
-    email = "23786@apsrkpuram.edu.in"
-    password = "9382084913@Swapnilt"
-
         #entering email
     email_login = driver.find_element_by_xpath('//*[@id="identifierId"]') 
     email_login.send_keys(email) 
